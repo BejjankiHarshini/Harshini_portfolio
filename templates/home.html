@@ -1,0 +1,113 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bejjanki Harshini | Portfolio</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Harshini<span>.</span></div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div class="hero-text">
+        <p class="tag">Final Year B.Tech Student</p>
+        <h1>Hi, I'm <span>Bejjanki Harshini</span></h1>
+        <h2>Aspiring Software Engineer</h2>
+
+        <p class="intro">
+            I build practical web applications using Python, Django,
+            SQL, HTML, CSS and Machine Learning. I enjoy creating
+            clean, user-friendly software solutions.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <img src="{% static 'images/profile.png' %}" alt="Harshini Profile">
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I am a final-year B.Tech student interested in software development,
+        full-stack web applications, and machine learning. I have built projects
+        using Django, Flask, Python, SQL and modern web technologies.
+    </p>
+</section>
+
+<section id="skills" class="section">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+        <span>Python</span>
+        <span>Django</span>
+        <span>Flask</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>SQL</span>
+        <span>Machine Learning</span>
+        <span>Git & GitHub</span>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+        <div class="project-card">
+            <h3>QR Code Smart Ordering System</h3>
+            <p>Classroom-level QR ordering system using Python, Flask and SQLite.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Fashion E-Commerce Website</h3>
+            <p>Online shopping website built using Django with product images and cart flow.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Social Media Application</h3>
+            <p>Django-based social app with posts, likes, profiles and user authentication.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Online Payment Fraud Detection</h3>
+            <p>Machine learning project for detecting fraudulent online transactions.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <p>I am open to internships, projects and learning-focused software roles.</p>
+
+    <div class="contact-links">
+        <a href="mailto:bejjankiharshini2@gmail.com">Email</a>
+        <a href="https://github.com/BejjankiHarshini" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank">LinkedIn</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Bejjanki Harshini. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
